@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/style.css">
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+  <title>Music Playlist AI</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1> AI Music Playlist Generator 🎶 </h1>
+
+    <main>
+      <div class="form-container">
+        <form id="playlist-generator-form">
+          <input type="text" id="user-instructions" placeholder="Enter your Prompt here" autofocus required
+            autocomplete="off" class="instructions">
+          <input type="submit" class="submit-button">
+        </form>
+        <div class="hint">
+          *Try entering keywords related to your favourite band(s), genres, a specific song and/or an occasion.
+        </div>
+      </div>
+      <div class="playlist-response" id="playlist-response">
+        Your Playlist will be generated here. ✨
+        <div id="playlist"></div>
+      </div>
+
+
+    </main>
+
+    <footer>
+      <p class="footer">
+        This AI project was coded by
+        <a href="https://github.com/Reya0707" target="_blank">Reya 🤘</a> and is open-sourced
+        <a href="https://github.com/Reya0707/AI-Poem-Generator" target="_blank">on GitHub</a> and
+        <a href="https://reyaipoemgenerator.netlify.app/" target="_blank">hosted on Netlify</a>
+      </p>
+    </footer>
+
+  </div>
+  <script src="src/index.js"></script>
+</body>
+
+</html>
