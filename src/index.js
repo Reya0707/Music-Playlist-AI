@@ -18,7 +18,7 @@ function displayplaylist(response) {
 
 function generateplaylist(event) {
   event.preventDefault();
- displayWaitingMessage();
+  displayWaitingMessage();
   let instructionsInput = document.querySelector("#user-instructions"); 
   let apiKey = "36c26f017e4ae34tb6a9679bb25odafe";
   let context =
