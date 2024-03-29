@@ -48,12 +48,27 @@ h2 {
 
 
 .user-instructions {
-  font-size: 15px;
-  color: #6b217f;
-
+   font-size: 15px;
+   width:  60%;
+   padding: 10px;
+  border-radius: 5px;
+    box-shadow: 0 0 5px rgba(67, 15, 88, 0.5);
 
 }
 
+.submit-button {
+  background-color: #430f58;
+    color: white;
+    padding: 10px;
+    border: 2px solid #430f58;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.submit-button:hover {
+  background-color: #6b217f;
+}
 
 .hint {
   display: block;
@@ -69,18 +84,6 @@ h2 {
 }
 
 
-.submit-button {
-  background-color: #430f58;
-    color: white;
-    padding: 20px 25px 20px;
-    border: 2px solid #430f58;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.submit-button:hover {
-  background-color: #6b217f;
-}
 
 .playlist-response {
   background-color: #b0acac;
