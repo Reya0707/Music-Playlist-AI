@@ -7,32 +7,31 @@
   <link rel="stylesheet" href="src/style.css">
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
-  <title>Music Playlist AI</title>
+  <title>MusicDo.ai</title>
 </head>
 
 <body>
 
   <div class="container">
 
-    <h1> AI Music Playlist Generator 🎶 </h1>
+    <h1>MusicDo.ai</h1>
+    <h2>Discover a new world of Music ✨🎶🎸</h2>
 
     <main>
       <div class="form-container">
         <form id="playlist-generator-form">
-          <input type="text" id="user-instructions" placeholder="Enter your Prompt here" autofocus required
-            autocomplete="off" class="instructions">
-          <input type="submit" class="submit-button">
+          <input type="text" id="user-instructions" placeholder="Enter the name of your favourite artist..."
+            autofocus="required" autocomplete="off">
+          <input type="submit" value="Generate Playlist" class="submit-button">
         </form>
-        <div class="hint">
-          *Try entering keywords related to your favourite band(s), genres, a specific song and/or an occasion.
+        <div class="hint"> Enter the name of your favourite artist and we'll generate a playlist of similar artists for
+          you. 🎶
         </div>
       </div>
       <div class="playlist-response" id="playlist-response">
-        Your Playlist will be generated here. ✨
+        Your Playlist will be generated here. ✨🎶🎸
         <div id="playlist"></div>
       </div>
-
-
     </main>
 
     <footer>

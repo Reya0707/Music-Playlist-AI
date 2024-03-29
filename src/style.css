@@ -1,8 +1,8 @@
+/* Styles for main content */
 main {
   margin-top: 50px;
   text-align: center;
 }
-
 body {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/119/738/original/clay-banks-fEVaiLwWvlU-unsplash.jpg?1710806531");
   background-repeat: no-repeat;
@@ -12,13 +12,20 @@ body {
   background-color: #0f1066;
 }
 
+
 h1 {
   color: #ffffff;
   font-size: 40px;
 }
 
+
+h2 {
+  color: #ffffff;
+  font-size: 25px;
+}
+
 .container {
-  background: rgba(247, 211, 211, 0.5);
+  background: rgb(209 189 189 / 50%);
   margin: 20px auto;
   max-width: 600px;
   padding: 15px 30px 30px 15px;
@@ -27,46 +34,69 @@ h1 {
   box-shadow: 8px 10px 20px rgba(0, 0, 0, 0.4);
 }
 
+/* Styles for the form container */
 .form-container {
   text-align: left;
-  background-color: rgba(247, 211, 211, 0.5);
+  background-color: #b0acac;
   border-radius: 40px;
   color: #430f58;
   font-size: 15px;
-  padding: 20px 30px 20px 30px;
-  margin: 30px 0px;
+      padding: 2px 30px 22px 33px;
+    margin: 22px 0px;
+    line-height: 0.5;
 }
 
-/* Update the form styling */
+
+.user-instructions {
+  font-size: 15px;
+  color: #6b217f;
+
+
+}
+
+
+.hint {
+  display: block;
+  color: #ffffff;
+  font-size: 15px;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
 #playlist-generator-form {
-  padding: 20px;
-  background-color: rgba(247, 211, 211, 0.5);
   margin-top: 20px;
   border-radius: 5px;
 }
 
-/* Update the submit button styling */
+
 .submit-button {
   background-color: #430f58;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+    color: white;
+    padding: 20px 25px 20px;
+    border: 2px solid #430f58;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-/* Add hover effect for submit button */
 .submit-button:hover {
   background-color: #6b217f;
 }
 
 .playlist-response {
-  background-color: rgba(247, 211, 211, 0.5);
+  background-color: #b0acac;
   text-align: center;
   border-radius: 30px;
-  color: #430f58;
-  font-size: 15px;
+  color: white;
+  font-size: 20px;
   padding: 20px 30px 40px 30px;
   margin: 30px 0px;
   line-height: 1.5;
+}
+
+.footer {
+  color: #ffffff;
+}
+
+.footer a {
+  color: #ffffff;
 }
